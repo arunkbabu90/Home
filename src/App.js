@@ -86,9 +86,6 @@ function App() {
     <Route path="/contact">
     <Contact />
     </Route>
-    <div class="back1" onClick={e => setTheme(
-      theme.mode === 'dark' ? {mode: 'light'} : {mode: 'dark'}
-    )}><i class={theme.mode === 'dark' ? "fa fa-sun i1" : "fa fa-moon i1"}></i></div>
     </div>
     </Router>
     </>

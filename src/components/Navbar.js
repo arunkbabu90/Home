@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
-import profilepic from '../img/profile_photo.jpg';
+import profilepic from '../img/profile_photo.png';
 
 class Navbar extends Component {
     constructor(props)
     {
-        super(props);
+        super();
         this.state={
             'NavItemActive':''
         }
@@ -27,13 +27,13 @@ class Navbar extends Component {
                 <img src={profilepic} className="profilepic"></img>
                 </div>
             </div>
-            <h2>Vikalp <mark>Kaushik</mark></h2>
-            <p>Full Stack Developer</p>
+            <h2>Arun K Babu</h2>
+            <p>Full Stack Android Developer</p>
             <ul>
-            <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
-            <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
-            <Navitem item="Portfolio" tolink="/portfolio"  activec={this.activeitem}></Navitem>
-            <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+            <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
+            <Navitem item="Portfolio" tolink="/Portfolio" activec={this.activeitem}></Navitem>
+            <Navitem item="About" tolink="/About" activec={this.activeitem}></Navitem>
+            <Navitem item="Contact" tolink="/Contact" activec={this.activeitem}></Navitem>
             </ul>
             </nav>
             )

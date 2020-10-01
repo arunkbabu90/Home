@@ -1,6 +1,6 @@
 {
-  "homepage": "http://arunkbabu90.github.io/Portfolio",
-  "name": "Portfolio",
+  "homepage": "http://arunkbabu90.github.io",
+  "name": "Home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

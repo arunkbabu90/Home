@@ -2,7 +2,7 @@
 :root{
   --sidebar-flex:1.5;
   --condiv-flex:6;
-  --fontsize-p:1.2rem;
+  --fontsize-p:1.1rem;
   --fontsize-nav:1.2rem;
   --typing-font:1.8rem;
 }
@@ -37,7 +37,7 @@ nav
 }
 .condiv
 {
-  width: 60%;
+  width: 67%;
 	height: 90%;
 	position: absolute;
 	top: 4%;
@@ -116,21 +116,24 @@ a
 
 .subtopic
 {
-  margin:10px 10px 10px 15px;
+  margin:20px 10px 10px 15px;
   font-size: 1.6rem;
+  color: #6c757d;
 }
 p{
   font-size: var(--fontsize-p);
-  color: #6c757d;
+  color: #88939b;
   margin: 10px;
 }
 h1{
   margin: 10px;
   font-size: 3.3rem;
+  color: #545C6F;
 }
 h2{
   margin-top: 90%;
   font-size: 1.8rem;
+  color: #545C6F;
 }
 .abouthead{
   margin: 15px 10px;
@@ -139,10 +142,12 @@ h2{
 h3{
   font-size: 1.4rem;
   margin: 37px 0 0 90px;
+  color: #545C6F;
 }
 h4{
   font-size: 1.2rem;
-  margin: 24px 0 0 90px;
+  margin: 16px 0 0 90px;
+  color: #545C6F;
 }
 .p1{
   margin-left: 90px;
@@ -161,7 +166,7 @@ h4{
   width: 90px;
   height: 15px;
   font-weight: bolder;
-  color: rgba(245, 108, 109,1);
+  color: rgba(49, 204, 98,1);
   text-align: center;
   padding: 10px;
   border-radius: 50px;
@@ -218,7 +223,7 @@ mark{
   height: 5px;
 }
 .inner2{
-  background: rgba(245, 108, 109,1);
+  background: rgba(49, 204, 98,1);
   width: 30px;
   height: 5px;
   border-radius: 5px;
@@ -237,7 +242,7 @@ mark{
   width: 10px;
   height: 15px;
   border-radius: 5px;
-  background: linear-gradient(120deg,rgba(245, 108, 109,1) 0,rgba(245, 108, 109,1) 100%);
+  background: linear-gradient(120deg,rgb(49, 204, 98) 0,rgb(49, 204, 98) 100%);
 }
 .inn1{
   margin-top: 45px;
@@ -301,8 +306,8 @@ mark{
 }
 .port_out{
   position: absolute;
-  width: 38%;
-  height: 30%;
+  width: 40%;
+  height: 35%;
   border-radius: 10px;
   box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
@@ -395,6 +400,9 @@ mark{
 .i3{
   color: rgba(245, 108, 109,1);
 }
+.i4 {
+  color: rgba(49, 204, 98,1);
+}
 .back2{
   top: 55%;
   left: 4%;
@@ -403,22 +411,27 @@ mark{
 .back3{
   width: 210px;
 	height: 25px;
-  padding: 12px 0;
+  padding: 8px 0;
 	position: absolute;
 	top: 54%;
 	left: 22%;
 	background: rgba(245, 108, 109,1);
-	border-radius: 25px;
-  font-size: 22px;
+	border-radius: 15px;
+  font-size: 20px;
   text-align: center;
   cursor: pointer;
-  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
+  color: #ffe6e6;
+  font-weight: 500;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px #ffc0c0;
 }
 .back3:hover{
   box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
 .back4{
   left: 56%;
+}
+.back5 {
+	background: #FA807D;
 }
 
 @media all and (max-width: 450px) {
