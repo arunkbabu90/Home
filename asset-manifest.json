@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Home/static/css/main.9bf7eb9e.chunk.css",
-    "main.js": "/Home/static/js/main.5ae04a6e.chunk.js",
-    "main.js.map": "/Home/static/js/main.5ae04a6e.chunk.js.map",
-    "runtime-main.js": "/Home/static/js/runtime-main.821ee7e5.js",
-    "runtime-main.js.map": "/Home/static/js/runtime-main.821ee7e5.js.map",
-    "static/js/2.afd9e359.chunk.js": "/Home/static/js/2.afd9e359.chunk.js",
-    "static/js/2.afd9e359.chunk.js.map": "/Home/static/js/2.afd9e359.chunk.js.map",
-    "index.html": "/Home/index.html",
-    "precache-manifest.d9d81d4854f191a980f67881fce11b3b.js": "/Home/precache-manifest.d9d81d4854f191a980f67881fce11b3b.js",
-    "service-worker.js": "/Home/service-worker.js",
-    "static/css/main.9bf7eb9e.chunk.css.map": "/Home/static/css/main.9bf7eb9e.chunk.css.map",
-    "static/js/2.afd9e359.chunk.js.LICENSE.txt": "/Home/static/js/2.afd9e359.chunk.js.LICENSE.txt",
-    "static/media/map.png": "/Home/static/media/map.faf3a260.png",
-    "static/media/profile_photo.png": "/Home/static/media/profile_photo.767a25c7.png",
-    "static/media/project1.png": "/Home/static/media/project1.4ba63ce0.png",
-    "static/media/project2.png": "/Home/static/media/project2.250ded84.png",
-    "static/media/project3.png": "/Home/static/media/project3.fe4eb302.png",
-    "static/media/project4.png": "/Home/static/media/project4.ec5529d2.png"
+    "main.css": "/static/css/main.9bf7eb9e.chunk.css",
+    "main.js": "/static/js/main.7f5a1562.chunk.js",
+    "main.js.map": "/static/js/main.7f5a1562.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f54618c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f54618c.js.map",
+    "static/js/2.4ab0a6a9.chunk.js": "/static/js/2.4ab0a6a9.chunk.js",
+    "static/js/2.4ab0a6a9.chunk.js.map": "/static/js/2.4ab0a6a9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f42e72ef7351fc5e9f842359f0a16c12.js": "/precache-manifest.f42e72ef7351fc5e9f842359f0a16c12.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9bf7eb9e.chunk.css.map": "/static/css/main.9bf7eb9e.chunk.css.map",
+    "static/js/2.4ab0a6a9.chunk.js.LICENSE.txt": "/static/js/2.4ab0a6a9.chunk.js.LICENSE.txt",
+    "static/media/map.png": "/static/media/map.faf3a260.png",
+    "static/media/profile_photo.png": "/static/media/profile_photo.767a25c7.png",
+    "static/media/project1.png": "/static/media/project1.4ba63ce0.png",
+    "static/media/project2.png": "/static/media/project2.250ded84.png",
+    "static/media/project3.png": "/static/media/project3.fe4eb302.png",
+    "static/media/project4.png": "/static/media/project4.ec5529d2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.821ee7e5.js",
-    "static/js/2.afd9e359.chunk.js",
+    "static/js/runtime-main.9f54618c.js",
+    "static/js/2.4ab0a6a9.chunk.js",
     "static/css/main.9bf7eb9e.chunk.css",
-    "static/js/main.5ae04a6e.chunk.js"
+    "static/js/main.7f5a1562.chunk.js"
   ]
 }
