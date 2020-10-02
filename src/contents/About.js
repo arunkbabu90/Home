@@ -4,7 +4,6 @@ class About extends Component {
     render() {
         return (
             <div className="condiv">
-            <div className="aboutTopHalf" height="40%">
             <h1 className="subtopic">About Me</h1>
             <div className="hr_line line2"><div className="inner2"></div></div>
             <div className="contentScroll" class="scroll">
@@ -21,22 +20,22 @@ class About extends Component {
             </p>
             </div>
             </div>
-            </div>
-            <div className="aboutBottomHalf" height="60%">
             <div className="Edu">
-                <div class="back1 back2"><i class="fa fa-book i1 i4"></i></div>
+                <div class="back1 back2 back6"><i class="fa fa-book i1 i4"></i></div>
             </div>
-            <h3 style={{marginTop:"65px"}}>Education</h3>
-            <div className="vr_line" style={{height:"250px"}}>
-                <div className="vr_inner inn1" style={{marginTop:"50px"}}></div>
-                <div className="vr_inner inn2" style={{marginTop:"105px"}}></div>
+            <h3 style={{marginLeft:"9%"}}>Education</h3>
+            <div className="vr_line">
+                <div className="vr_inner inn1"></div>
+                <div className="vr_inner inn2"></div>
             </div>
-            <h4 style={{marginTop:"30px"}}>Master Of Computer Applications</h4>
+            <div className="edDiv">
+            <h4>Master Of Computer Applications</h4>
             <p className="p1">RIT, Kottayam, Kerala</p>
             <p className="p1"><i class="fa fa-calendar i2"></i> 2018 - 2021</p>
             <h4>Bachelor Of Commerce</h4>
             <p className="p1">St. George College, Vazhakulam, Kerala</p>
             <p className="p1"><i class="fa fa-calendar i2"></i> 2013 - 2015</p>
+            </div>
 
             <h3 class="sk_head">Skills</h3>
             <div class="sk">Kotlin</div>
@@ -45,7 +44,6 @@ class About extends Component {
             <div class="sk s4">Retrofit</div>
             <div class="sk s5">Firebase</div>
             <div class="sk s6">Flutter</div>
-            </div>
             </div>
             )
         }
