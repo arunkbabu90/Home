@@ -20,6 +20,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
+                <div>
                 <div className="neu2">
                     <div className="neu1">
                         <img src={profilepic} className="profilepic" />
@@ -33,6 +34,7 @@ class Navbar extends Component {
                     <Navitem item="About" tolink="/About" activec={this.activeitem}></Navitem>
                     <Navitem item="Contact" tolink="/Contact" activec={this.activeitem}></Navitem>
                 </ul>
+                </div>
             </nav>
         )
     }

@@ -11,7 +11,7 @@ class Portfolio extends Component {
             <div className="condiv">
                 <h1 className="subtopic">My Work</h1>
                 <div className="hr_line line2"><div className="inner2 inner3"></div></div>
-                <ul className="portdiv">
+                <ul>
                     <HallFrame to='https://play.google.com/store/apps/details?id=arunkbabu.care&hl=en_IN' src={project1} />
                     <HallFrame to='https://play.google.com/store/apps/details?id=arunkbabu90.tracer&hl=en-GB' src={project2} />
                     <HallFrame to='https://play.google.com/store/apps/details?id=arunkbabu90.insight&hl=en' src={project3} />

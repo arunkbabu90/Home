@@ -296,30 +296,10 @@ mark {
   box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
 
-.port1 {
-  top: 18%;
-  left: 10%;
-}
-
-.port2 {
-  top: 18%;
-  left: 53%;
-}
-
-.port3 {
-  top: 58%;
-  left: 10%;
-}
-
-.port4 {
-  top: 58%;
-  left: 53%;
-}
-
 .port_in {
   position: relative;
-  width: 500px;
-  height: 250px;
+  width: 400px;
+  height: 200px;
   margin: 50px 0 0 50px;
   left: 5%;
   float: left;
@@ -329,7 +309,7 @@ mark {
 }
 
 .port_in:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .po1 {
@@ -451,7 +431,12 @@ mark {
   margin-left: 5px;
 }
 
-@media all and (max-width: 450px) {
+.navItem {
+  font-weight: 500;
+  color: #545C6F;
+}
+
+@media all and (max-width: 500px) {
   :root {
     --fontsize-nav: 1.2rem;
     --sidebar-flex: 0;
@@ -482,25 +467,21 @@ mark {
     left: 19%;
   }
   h2 {
-    margin-top: 80%;
-    font-size: 2.2rem;
+    margin-top: 70%;
+    font-size: 2.0rem;
   }
   p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .condiv {
     top: 110%;
-    left: 5%;
-    width: 84.5%;
+    width: 85%;
     height: 100%;
     margin-bottom: 50px;
   }
   h1 {
     text-align: center;
     font-size: 2.8rem;
-  }
-  .p10 {
-    display: none;
   }
   .back2 {
     top: 27%;
@@ -511,32 +492,6 @@ mark {
   }
   h3 {
     margin-top: 25px;
-  }
-  .sk_head {
-    left: 0;
-    top: 65%;
-    margin-left: 30px;
-  }
-  .sk {
-    top: 74%;
-    left: 10%;
-  }
-  .s2 {
-    left: 50%;
-  }
-  .s3 {
-    top: 82%;
-  }
-  .s4 {
-    top: 82%;
-    left: 50%;
-  }
-  .s5 {
-    top: 90%;
-  }
-  .s6 {
-    top: 90%;
-    left: 50%;
   }
   .subtopic {
     margin: 10px !important;
@@ -561,25 +516,24 @@ mark {
     margin: 1px 120px;
   }
   .inner2 {
-    margin: 15px;
+    margin: 15px 0 0 0;
   }
   .port_out {
     width: 80%;
     height: 26%;
   }
-  .port1 {
-    top: 12%;
+  .port_in {
+    position: relative;
+    width: 290px;
+    height: 100px;
+    margin: 50px 20px 0 20px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
   }
-  .port2 {
-    left: 10%;
-    top: 42%;
-  }
-  .port3 {
-    display: none;
-  }
-  .port4 {
-    top: 72%;
-    left: 10%;
+  .po1 {
+    width: 96%;
+    height: 93%;
+    border-radius: 10px;
   }
   .social {
     width: 90%;
@@ -588,5 +542,9 @@ mark {
   }
   .btnsame {
     margin: 15px 10px;
+  }
+  .navItem {
+    font-weight: 500;
+    color: #545C6F;
   }
 }
