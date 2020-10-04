@@ -1,0 +1,56 @@
+.about {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.1rem;
+  --fontsize-nav: 1.2rem;
+  --typing-font: 1.8rem;
+}
+
+.condiv {
+  overflow-y: scroll;
+  width: 67%;
+  height: 90%;
+  position: absolute;
+  top: 4%;
+  left: 28%;
+  border-radius: 30px;
+  line-height: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
+}
+
+.condiv>h3 {
+  font-size: 1.4rem;
+  margin: 30px 0 0 16px;
+  color: hsl(222, 14%, 38%);
+}
+
+.sk_head {
+  position: relative;
+}
+
+.sk {
+  top: 55%;
+  margin: 30px 0 0 30px;
+  display: inline-block;
+  width: 90px;
+  height: 15px;
+  font-weight: bolder;
+  color: rgba(49, 204, 98, 1);
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+}
+
+.abouthead{
+  margin: 35px 10px;
+  font-size: 2.3rem;
+}
+
+.subhead > p{
+  font-size: 1.1rem;
+  color: #88939b;
+}
