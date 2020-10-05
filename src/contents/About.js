@@ -8,7 +8,7 @@ class About extends Component {
                 <h1 className="subtopic">About Me</h1>
                 <div className="hr_line line2"><div className="inner2"></div></div>
                 <h2 class="about_name">Arun K Babu</h2>
-                <p class="subhead">Full Stack Android Developer</p>
+                <p class="subhead">Front-end Android Developer</p>
                 <br></br>
                 <div className="d11">
                     <p className="p10">I started my journey in the world of computers from an young age,

@@ -27,7 +27,7 @@ class Navbar extends Component {
                     </div>
                 </div>
                 <h2>Arun K Babu</h2>
-                <p>Full Stack Android Developer</p>
+                <p>Front-end Android Developer</p>
                 <ul>
                     <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
                     <Navitem item="Portfolio" tolink="/Portfolio" activec={this.activeitem}></Navitem>
